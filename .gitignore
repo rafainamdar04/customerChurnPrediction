@@ -1,0 +1,16 @@
+# Ignore your virtual environment
+customerChurn/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs, OS, and editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
