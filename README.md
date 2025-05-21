@@ -30,16 +30,24 @@ This project uses a telecom customer dataset with a mix of categorical and numer
 
 ---
 
-## 💻 Installation
+## 💻 Installation & Running the App
 
 ```bash
 git clone <repo-url>
 cd customer-churn-prediction
 python -m venv customerChurn
+
+# Activate virtual environment
 # On Linux/macOS
 source customerChurn/bin/activate
+
 # On Windows PowerShell
 .\customerChurn\Scripts\Activate.ps1
+
 # On Windows CMD
 customerChurn\Scripts\activate.bat
+
 pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app.py
